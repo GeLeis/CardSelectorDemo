@@ -15,6 +15,11 @@
 		0E0138621D7D54E8002BEBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0138601D7D54E8002BEBAC /* LaunchScreen.storyboard */; };
 		0E01386D1D7D54E8002BEBAC /* CardSelectorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01386C1D7D54E8002BEBAC /* CardSelectorDemoTests.m */; };
 		0E0138781D7D54E8002BEBAC /* CardSelectorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0138771D7D54E8002BEBAC /* CardSelectorDemoUITests.m */; };
+		0E8A5BEB1D7D5775008E47D1 /* CardSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8A5BEA1D7D5775008E47D1 /* CardSelectorView.m */; };
+		0E8A5BF21D7D5DF0008E47D1 /* SingleCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8A5BF11D7D5DF0008E47D1 /* SingleCardView.m */; };
+		AABBAB22D33A887EFD3BA79B /* libPods-CardSelectorDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846FA6C10BF47A5DBC00D98F /* libPods-CardSelectorDemoTests.a */; };
+		F1F8DC45C89F94CC02EC5B75 /* libPods-CardSelectorDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C836EAA6954918E382DC31 /* libPods-CardSelectorDemoUITests.a */; };
+		F6D8ED38A39036201DE33666 /* libPods-CardSelectorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F63E15E046C4527CBA24759 /* libPods-CardSelectorDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030391C7422E6D1F441415EF /* Pods-CardSelectorDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSelectorDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardSelectorDemoUITests/Pods-CardSelectorDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E01384F1D7D54E8002BEBAC /* CardSelectorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSelectorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0138531D7D54E8002BEBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E0138551D7D54E8002BEBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,19 @@
 		0E0138731D7D54E8002BEBAC /* CardSelectorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSelectorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0138771D7D54E8002BEBAC /* CardSelectorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardSelectorDemoUITests.m; sourceTree = "<group>"; };
 		0E0138791D7D54E8002BEBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8A5BE91D7D5775008E47D1 /* CardSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSelectorView.h; sourceTree = "<group>"; };
+		0E8A5BEA1D7D5775008E47D1 /* CardSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSelectorView.m; sourceTree = "<group>"; };
+		0E8A5BEE1D7D590F008E47D1 /* CardSelectorDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CardSelectorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0E8A5BF01D7D5DF0008E47D1 /* SingleCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCardView.h; sourceTree = "<group>"; };
+		0E8A5BF11D7D5DF0008E47D1 /* SingleCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCardView.m; sourceTree = "<group>"; };
+		52F740C7E5BC05FA3A6E58A7 /* Pods-CardSelectorDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSelectorDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardSelectorDemoTests/Pods-CardSelectorDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2713B52104CACF464276E8 /* Pods-CardSelectorDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSelectorDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardSelectorDemoTests/Pods-CardSelectorDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F63E15E046C4527CBA24759 /* libPods-CardSelectorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardSelectorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A4A7333EF749EBC87B0D5E /* Pods-CardSelectorDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSelectorDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardSelectorDemoUITests/Pods-CardSelectorDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		846FA6C10BF47A5DBC00D98F /* libPods-CardSelectorDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardSelectorDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E044336B9522E89DC5EF15 /* Pods-CardSelectorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSelectorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardSelectorDemo/Pods-CardSelectorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5599BB701ACE90C7FF2A26 /* Pods-CardSelectorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSelectorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardSelectorDemo/Pods-CardSelectorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D7C836EAA6954918E382DC31 /* libPods-CardSelectorDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardSelectorDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D8ED38A39036201DE33666 /* libPods-CardSelectorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABBAB22D33A887EFD3BA79B /* libPods-CardSelectorDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F8DC45C89F94CC02EC5B75 /* libPods-CardSelectorDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				0E01386B1D7D54E8002BEBAC /* CardSelectorDemoTests */,
 				0E0138761D7D54E8002BEBAC /* CardSelectorDemoUITests */,
 				0E0138501D7D54E8002BEBAC /* Products */,
+				F187B44B60E2F3022E4D120C /* Pods */,
+				6403706D143B797E6943F985 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +125,12 @@
 		0E0138511D7D54E8002BEBAC /* CardSelectorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0E8A5BEF1D7D5AC7008E47D1 /* CardSelectorView */,
 				0E0138551D7D54E8002BEBAC /* AppDelegate.h */,
 				0E0138561D7D54E8002BEBAC /* AppDelegate.m */,
 				0E0138581D7D54E8002BEBAC /* ViewController.h */,
 				0E0138591D7D54E8002BEBAC /* ViewController.m */,
 				0E01385B1D7D54E8002BEBAC /* Main.storyboard */,
-				0E01385E1D7D54E8002BEBAC /* Assets.xcassets */,
-				0E0138601D7D54E8002BEBAC /* LaunchScreen.storyboard */,
-				0E0138631D7D54E8002BEBAC /* Info.plist */,
 				0E0138521D7D54E8002BEBAC /* Supporting Files */,
 			);
 			path = CardSelectorDemo;
@@ -117,7 +139,11 @@
 		0E0138521D7D54E8002BEBAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E01385E1D7D54E8002BEBAC /* Assets.xcassets */,
+				0E0138601D7D54E8002BEBAC /* LaunchScreen.storyboard */,
+				0E0138631D7D54E8002BEBAC /* Info.plist */,
 				0E0138531D7D54E8002BEBAC /* main.m */,
+				0E8A5BEE1D7D590F008E47D1 /* CardSelectorDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +166,40 @@
 			path = CardSelectorDemoUITests;
 			sourceTree = "<group>";
 		};
+		0E8A5BEF1D7D5AC7008E47D1 /* CardSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				0E8A5BE91D7D5775008E47D1 /* CardSelectorView.h */,
+				0E8A5BEA1D7D5775008E47D1 /* CardSelectorView.m */,
+				0E8A5BF01D7D5DF0008E47D1 /* SingleCardView.h */,
+				0E8A5BF11D7D5DF0008E47D1 /* SingleCardView.m */,
+			);
+			name = CardSelectorView;
+			sourceTree = "<group>";
+		};
+		6403706D143B797E6943F985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F63E15E046C4527CBA24759 /* libPods-CardSelectorDemo.a */,
+				846FA6C10BF47A5DBC00D98F /* libPods-CardSelectorDemoTests.a */,
+				D7C836EAA6954918E382DC31 /* libPods-CardSelectorDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F187B44B60E2F3022E4D120C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E044336B9522E89DC5EF15 /* Pods-CardSelectorDemo.debug.xcconfig */,
+				BF5599BB701ACE90C7FF2A26 /* Pods-CardSelectorDemo.release.xcconfig */,
+				52F740C7E5BC05FA3A6E58A7 /* Pods-CardSelectorDemoTests.debug.xcconfig */,
+				5C2713B52104CACF464276E8 /* Pods-CardSelectorDemoTests.release.xcconfig */,
+				030391C7422E6D1F441415EF /* Pods-CardSelectorDemoUITests.debug.xcconfig */,
+				61A4A7333EF749EBC87B0D5E /* Pods-CardSelectorDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E01387C1D7D54E8002BEBAC /* Build configuration list for PBXNativeTarget "CardSelectorDemo" */;
 			buildPhases = (
+				A7B9AA4510E6F68A29E3C7CA /* [CP] Check Pods Manifest.lock */,
 				0E01384B1D7D54E8002BEBAC /* Sources */,
 				0E01384C1D7D54E8002BEBAC /* Frameworks */,
 				0E01384D1D7D54E8002BEBAC /* Resources */,
+				C29546BAF8FBE992CBC4CB03 /* [CP] Embed Pods Frameworks */,
+				8B427D79034235AD61527D4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E01387F1D7D54E8002BEBAC /* Build configuration list for PBXNativeTarget "CardSelectorDemoTests" */;
 			buildPhases = (
+				3AB61FF0BDD6EA338379E79D /* [CP] Check Pods Manifest.lock */,
 				0E0138641D7D54E8002BEBAC /* Sources */,
 				0E0138651D7D54E8002BEBAC /* Frameworks */,
 				0E0138661D7D54E8002BEBAC /* Resources */,
+				F2E3F6C50581A124AD34FEFB /* [CP] Embed Pods Frameworks */,
+				88F898C7B403D8FD2CA8C5AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E0138821D7D54E8002BEBAC /* Build configuration list for PBXNativeTarget "CardSelectorDemoUITests" */;
 			buildPhases = (
+				C03A89710CE9FF0C31666EDD /* [CP] Check Pods Manifest.lock */,
 				0E01386F1D7D54E8002BEBAC /* Sources */,
 				0E0138701D7D54E8002BEBAC /* Frameworks */,
 				0E0138711D7D54E8002BEBAC /* Resources */,
+				FDDB05EDABF21A5EDDF36187 /* [CP] Embed Pods Frameworks */,
+				075D5D5388679AD4A84FF2A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +334,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		075D5D5388679AD4A84FF2A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardSelectorDemoUITests/Pods-CardSelectorDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB61FF0BDD6EA338379E79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88F898C7B403D8FD2CA8C5AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardSelectorDemoTests/Pods-CardSelectorDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B427D79034235AD61527D4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardSelectorDemo/Pods-CardSelectorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B9AA4510E6F68A29E3C7CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C03A89710CE9FF0C31666EDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C29546BAF8FBE992CBC4CB03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardSelectorDemo/Pods-CardSelectorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E3F6C50581A124AD34FEFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardSelectorDemoTests/Pods-CardSelectorDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDDB05EDABF21A5EDDF36187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardSelectorDemoUITests/Pods-CardSelectorDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E01384B1D7D54E8002BEBAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +479,9 @@
 			files = (
 				0E01385A1D7D54E8002BEBAC /* ViewController.m in Sources */,
 				0E0138571D7D54E8002BEBAC /* AppDelegate.m in Sources */,
+				0E8A5BF21D7D5DF0008E47D1 /* SingleCardView.m in Sources */,
 				0E0138541D7D54E8002BEBAC /* main.m in Sources */,
+				0E8A5BEB1D7D5775008E47D1 /* CardSelectorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,28 +620,35 @@
 		};
 		0E01387D1D7D54E8002BEBAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E044336B9522E89DC5EF15 /* Pods-CardSelectorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/CardSelectorDemo/CardSelectorDemo-Prefix.pch";
 				INFOPLIST_FILE = CardSelectorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.langya.CardSelectorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		0E01387E1D7D54E8002BEBAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5599BB701ACE90C7FF2A26 /* Pods-CardSelectorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/CardSelectorDemo/CardSelectorDemo-Prefix.pch";
 				INFOPLIST_FILE = CardSelectorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.langya.CardSelectorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
 		0E0138801D7D54E8002BEBAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F740C7E5BC05FA3A6E58A7 /* Pods-CardSelectorDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CardSelectorDemoTests/Info.plist;
@@ -445,6 +661,7 @@
 		};
 		0E0138811D7D54E8002BEBAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2713B52104CACF464276E8 /* Pods-CardSelectorDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CardSelectorDemoTests/Info.plist;
@@ -457,6 +674,7 @@
 		};
 		0E0138831D7D54E8002BEBAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030391C7422E6D1F441415EF /* Pods-CardSelectorDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CardSelectorDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +686,7 @@
 		};
 		0E0138841D7D54E8002BEBAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A4A7333EF749EBC87B0D5E /* Pods-CardSelectorDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CardSelectorDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +715,7 @@
 				0E01387E1D7D54E8002BEBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E01387F1D7D54E8002BEBAC /* Build configuration list for PBXNativeTarget "CardSelectorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +724,7 @@
 				0E0138811D7D54E8002BEBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E0138821D7D54E8002BEBAC /* Build configuration list for PBXNativeTarget "CardSelectorDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +733,7 @@
 				0E0138841D7D54E8002BEBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

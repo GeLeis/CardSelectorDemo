@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CardSelectorView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,33 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	CardSelectorView *cardSelectorView = [[CardSelectorView alloc] initWithFrame:self.view.frame];
+	cardSelectorView.cardDatas = @[@"1",@"2",@"3",@"4"];
+	cardSelectorView.tapAction = ^(){
+		NSLog(@"==tap==");
+	};
+	cardSelectorView.dragToLeftAction = ^(){
+		NSLog(@"向左");
+	};
+	cardSelectorView.dragToRightAction = ^(){
+		NSLog(@"向右");
+	};
+	
+	cardSelectorView.dragToTopAction = ^(){
+		NSLog(@"向上");
+	};
+	
+	[self.view addSubview:cardSelectorView];
+	@weakify(self);
+	[cardSelectorView mas_makeConstraints:^(MASConstraintMaker *make) {
+		@strongify(self);
+		make.edges.equalTo(self.view);
+	}];
 }
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+	
 }
 
 @end
