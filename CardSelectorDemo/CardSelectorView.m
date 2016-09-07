@@ -211,8 +211,16 @@
 
 -(void)removeTopSingleCardView:(SingleCardView *)singleCardView {
 	
-	[UIView animateWithDuration:1 animations:^{
-		singleCardView.frame = CGRectMake(self.frame.size.height * (_nowPoint.x > _originPoint.x ? 1 : -1), fabs((_translateY) / (_translateX) * self.frame.size.height) * (_nowPoint.y > _originPoint.y ? 1 : -1), singleCardView.frame.size.width, singleCardView.frame.size.height);
+	CGFloat tanAngle = fabs(_nowPoint.y - _originPoint.y) / fabs(_nowPoint.x - _originPoint.x);
+	CGFloat angle = fabs(atan(tanAngle));
+	CGFloat screenDiagonal = sqrt(pow(self.frame.size.width, 2) + pow(self.frame.size.height, 2));
+	CGFloat nextTranslateX = screenDiagonal * cos(angle) - fabs(_nowPoint.x - _originPoint.x);
+	CGFloat nextTranslateY = screenDiagonal *sin(angle) - fabs(_nowPoint.y - _originPoint.y);
+	CGFloat endX = (_nowPoint.x > _originPoint.x) ? (nextTranslateX + singleCardView.frame.origin.x) : (singleCardView.frame.origin.x - nextTranslateX);
+	CGFloat endY = (_nowPoint.y > _originPoint.y) ? (nextTranslateY + singleCardView.frame.origin.y) : (singleCardView.frame.origin.y - nextTranslateY);
+	
+	[UIView animateWithDuration:MAX(nextTranslateX, nextTranslateY) / singleCardView.frame.size.height animations:^{
+		singleCardView.frame = CGRectMake(endX, endY, singleCardView.frame.size.width, singleCardView.frame.size.height);
 		
 		if (self.cardViews.count > 1) {
 			for (int index = 1; index < self.cardViews.count; index++) {
