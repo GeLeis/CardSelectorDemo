@@ -210,12 +210,16 @@
 }
 
 -(void)removeTopSingleCardView:(SingleCardView *)singleCardView {
-	
+	//计算位移角度
 	CGFloat tanAngle = fabs(_nowPoint.y - _originPoint.y) / fabs(_nowPoint.x - _originPoint.x);
 	CGFloat angle = fabs(atan(tanAngle));
+	//对角线长度
 	CGFloat screenDiagonal = sqrt(pow(self.frame.size.width, 2) + pow(self.frame.size.height, 2));
+	//水平方向剩余位移
 	CGFloat nextTranslateX = screenDiagonal * cos(angle) - fabs(_nowPoint.x - _originPoint.x);
+	//垂直方向剩余位移
 	CGFloat nextTranslateY = screenDiagonal *sin(angle) - fabs(_nowPoint.y - _originPoint.y);
+	//计算终点
 	CGFloat endX = (_nowPoint.x > _originPoint.x) ? (nextTranslateX + singleCardView.frame.origin.x) : (singleCardView.frame.origin.x - nextTranslateX);
 	CGFloat endY = (_nowPoint.y > _originPoint.y) ? (nextTranslateY + singleCardView.frame.origin.y) : (singleCardView.frame.origin.y - nextTranslateY);
 	
@@ -235,7 +239,8 @@
 	} completion:^(BOOL finished) {
 		[singleCardView removeFromSuperview];
 	}];
-	
+	_originPoint = CGPointZero;
+	_nowPoint = CGPointZero;
 }
 
 @end
